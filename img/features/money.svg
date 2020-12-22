@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <linearGradient id="rajuva5tma" x1="100%" x2="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#FFD16B"/>
+            <stop offset="100%" stop-color="#F7901C"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-1124 -1242) translate(40 1202) translate(1044) translate(40 40)">
+                        <rect width="64" height="64" fill="url(#rajuva5tma)" rx="5.333"/>
+                        <g>
+                            <path d="M0 0L32 0 32 32 0 32z" transform="translate(16 16)"/>
+                            <path fill="#FFF" fill-rule="nonzero" d="M16 29.333C8.636 29.333 2.667 23.364 2.667 16S8.636 2.667 16 2.667 29.333 8.636 29.333 16 23.364 29.333 16 29.333zm-4.667-10.666v2.666h3.334V24h2.666v-2.667h1.334C20.507 21.333 22 19.841 22 18c0-1.84-1.492-3.333-3.333-3.333h-5.334c-.368 0-.666-.299-.666-.667 0-.368.298-.667.666-.667h7.334v-2.666h-3.334V8h-2.666v2.667h-1.334C11.493 10.667 10 12.159 10 14c0 1.84 1.492 3.333 3.333 3.333h5.334c.368 0 .666.299.666.667 0 .368-.298.667-.666.667h-7.334z" transform="translate(16 16)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

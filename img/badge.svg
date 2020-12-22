@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="207" height="207" viewBox="0 0 207 207">
+    <defs>
+        <filter id="ckt3epmffa" width="491.8%" height="166.6%" x="-195.9%" y="-27.9%" filterUnits="objectBoundingBox">
+            <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="15"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.196078431 0 0 0 0 0.823529412 0 0 0 0 0.588235294 0 0 0 0.2 0"/>
+        </filter>
+        <path id="ed4zjfyllb" d="M48.692-12l23.826 23.571c.761.754 1.189 1.78 1.187 2.852l-.09 47.208-.09 47.218c-.003 1.066-.43 2.086-1.187 2.836l-23.646 23.393V-12z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-1027 -23226) translate(0 22439) translate(1063.645 823.304) rotate(-45 61.198 61.54)">
+                        <use fill="#000" filter="url(#ckt3epmffa)" xlink:href="#ed4zjfyllb"/>
+                        <use fill="#32D296" xlink:href="#ed4zjfyllb"/>
+                    </g>
+                    <text fill="#FFF" font-family="Rubik-Bold, Rubik" font-size="14" font-weight="bold" transform="translate(-1027 -23226) translate(0 22439) translate(1063.645 823.304) rotate(45 66.5 66.767)">
+                        <tspan x="16" y="71.267">BEST VALUE</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

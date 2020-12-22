@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="471" height="80" viewBox="0 0 471 80">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <path d="M0 0H385.364V80H0z" transform="translate(-485 -11894) translate(0 10804) translate(388 1024) translate(97 66)"/>
+                        <path fill="#335BFB" d="M27.118 8.571l27.118 15.715v31.428L27.118 71.43 0 55.714V24.286L27.118 8.57zm0 40c4.73 0 8.564-3.837 8.564-8.571s-3.834-8.571-8.564-8.571-8.563 3.837-8.563 8.571 3.834 8.571 8.563 8.571z" transform="translate(-485 -11894) translate(0 10804) translate(388 1024) translate(97 66)"/>
+                        <text fill="#34343C" font-family="Rubik-Medium, Rubik" font-size="45.714" font-weight="400" letter-spacing="2.857" transform="translate(-485 -11894) translate(0 10804) translate(388 1024) translate(97 66)">
+                            <tspan x="77.073" y="48.714">SCRIPT ENGAGE</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
