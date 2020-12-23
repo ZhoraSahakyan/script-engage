@@ -1,0 +1,75 @@
+.box-part {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: calc((100% - 96px) / 4) 32px calc((100% - 96px) / 4) 32px calc((100% - 96px) / 4) 32px calc((100% - 96px) / 4);
+  grid-template-columns: repeat(4, calc((100% - 96px) / 4));
+  grid-gap: 32px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 40px;
+}
+
+.box {
+  padding: 40px 40px 56px;
+  border-radius: 8px;
+  background-color: #303750;
+}
+
+
+.box svg,
+.box img{
+  width: 64px;
+  height: 64px;
+  margin-bottom: 24px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.box .subtitle {
+  font-size: 24px;
+  margin-bottom: 8px;
+  line-height: 1;
+  font-family: 'Rubik-Medium';
+}
+.box p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: revert;
+}
+
+@media all and (max-width: 992px) {
+  .box p {
+    font-size: 14px;
+  }
+
+  .box-part {
+    padding: 0 15px;
+    -ms-grid-columns: calc((100% - 60px) / 4) 20px calc((100% - 60px) / 4) 20px calc((100% - 60px) / 4) 20px calc((100% - 60px) / 4);
+    grid-template-columns: repeat(4, calc((100% - 60px) / 4));
+    grid-gap: 20px;
+  }
+
+  .box {
+    padding: 15px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .box-part {
+    -ms-grid-columns: calc((100% - 20px) / 2) 20px calc((100% - 20px) / 2);
+    grid-template-columns: repeat(2, calc((100% - 20px) / 2));
+    grid-gap: 20px;
+  }
+
+  .box {
+    margin: 14px 9px;
+  }
+}
+
+@media all and (max-width: 567px) {
+  .box-part {
+    -ms-grid-columns: calc((100%));
+    grid-template-columns: repeat(1, calc((100%)));
+  }
+}
