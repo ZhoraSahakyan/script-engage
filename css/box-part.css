@@ -7,8 +7,9 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 100%;
   padding: 0 40px;
+  width: 1360px;
+  max-width: 100%;
 }
 
 .box {
@@ -17,21 +18,22 @@
   background-color: #303750;
 }
 
-
 .box svg,
-.box img{
+.box img {
   width: 64px;
   height: 64px;
   margin-bottom: 24px;
   -o-object-fit: contain;
   object-fit: contain;
 }
+
 .box .subtitle {
   font-size: 24px;
   margin-bottom: 8px;
   line-height: 1;
   font-family: 'Rubik-Medium';
 }
+
 .box p {
   font-size: 16px;
   line-height: 1.5;

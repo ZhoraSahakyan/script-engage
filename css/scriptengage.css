@@ -185,7 +185,7 @@
 }
 
 .marketing-block .box-part {
-  margin: 56px 0 88px;
+  margin: 56px auto 88px;
 }
 
 @media all and (max-width: 992px) {
