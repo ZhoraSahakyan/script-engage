@@ -15,9 +15,11 @@
   max-width: 100%;
   font-family: 'Rubik-Regular', sans-serif;
 }
-body{
+
+body {
   background: var(--color-dark);
 }
+
 h1, h1, h3, h4, h5, h6 {
   font-family: 'Rubik-Bold', sans-serif;
 }
@@ -78,6 +80,10 @@ p {
 .wrapper {
   width: 1128px;
   max-width: 100%;
+}
+
+.reset-width {
+  max-width: unset !important;
 }
 
 .mx-auto {
@@ -190,6 +196,7 @@ p {
   align-self: center;
   flex-shrink: 0;
 }
+
 @media all and (max-width: 1150px) {
   .wrapper {
     max-width: 100%;
@@ -220,11 +227,30 @@ p {
     font-size: 16px;
   }
 }
+.blue-circle {
+  font-family: Rubik-Bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 4px solid var(--blue);
+  color: var(--blue);
+  font-size: 28px;
+}
+@media all and (max-width: 600px) {
+  .display-none {
+    display: none
+  }
+}
 
 @media all and (max-width: 567px) {
   .wrapper {
     padding: 0 15px;
   }
+
   .button {
     min-width: 80%;
     font-size: 12px;

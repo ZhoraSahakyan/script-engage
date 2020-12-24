@@ -1,6 +1,7 @@
 @import "fonts.css";
 @import "reset.css";
 @import "box-part.css";
+@import "articles.css";
 
 .section-contant-text {
   max-width: 664px;
@@ -32,30 +33,22 @@
 
 .third-block .description {
   font-size: 24px;
+  width: 1024px;
 }
 
 /**header_part**/
-header {
+.header-content {
   width: 100%;
-  height: 64px;
   padding: 17px 40px 15px;
   -webkit-box-shadow: 0 4px 24px 0 rgba(50, 58, 114, 0.04);
   box-shadow: 0 4px 24px 0 rgba(50, 58, 114, 0.04);
   border: solid 1px #dfe1eb;
   background-color: var(--white);
-}
-
-.header-content {
-  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -68,27 +61,15 @@ header {
   height: 28px;
 }
 
-.logo-part img {
-  width: 32px;
-  height: 32px;
-  -o-object-fit: contain;
-  object-fit: contain;
-}
-
-.logo-part {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.name {
+.login-registration,
+.login-registration:hover,
+.login-registration:focus,
+.login-registration:visited {
   margin: 0 0 0 16px;
   font-size: 16px;
   line-height: 1.5;
   color: #34343c;
+  text-decoration: none;
 }
 
 .fa-caret-down {
@@ -173,7 +154,7 @@ header {
   -ms-grid-columns: calc((100% - 20px) / 2) 20px calc((100% - 20px) / 2);
   grid-template-columns: repeat(2, calc((100% - 20px) / 2));
   grid-gap: 20px;
-  max-height: 840px;
+  max-height: 863px;
   overflow: hidden;
 }
 
@@ -209,9 +190,9 @@ header {
 }
 
 .chat-part2 {
-  -webkit-transform: translateY(-40px);
-  -ms-transform: translateY(-40px);
-  transform: translateY(-40px);
+  -webkit-transform: translateY(-55px);
+  -ms-transform: translateY(-55px);
+  transform: translateY(-55px);
 }
 
 .chat-part3 {
@@ -252,6 +233,15 @@ header {
 .box-5 {
   height: 65px;
   margin: 20px 0 0;
+}
+
+.box-6 p {
+  padding-top: 0;
+}
+
+.box-3 .jan,
+.box-8 .jan {
+  padding-top: 16px;
 }
 
 .box-6,
@@ -308,27 +298,14 @@ header {
   flex-direction: row-reverse;
 }
 
-.unimat-conatnt-left-part {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.unimat-conatnt-left-part img {
-  width: 48px;
-  -o-object-fit: contain;
-  object-fit: contain;
-  margin-right: 12px;
-}
-
 .unimat-conatnt-left-part h5 {
   font-family: 'Rubik-Bold';
   font-size: 32px;
   line-height: 1.25;
-  color: var(--white);
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+}
+
+.unimat-conatnt-left-part .blue-circle {
+  margin-right: 12px;
 }
 
 .unimat-conatnt-left p {
@@ -386,50 +363,6 @@ header {
   -webkit-box-direction: reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
-}
-
-.service-left {
-  color: #34343c;
-  width: 50%;
-}
-
-.service-left h4 {
-  font-family: 'Rubik-Bold';
-  width: 90%;
-  font-size: 32px;
-  line-height: 1.25;
-}
-
-.service-left h5 {
-  font-family: 'Rubik-Italic';
-  font-size: 24px;
-  line-height: 1.33;
-}
-
-.service-left p {
-  width: 83%;
-  color: #34343c;
-  margin: 7px 0 0;
-  font-size: 21px;
-  line-height: 1.52;
-}
-
-.service-right {
-  width: 50%
-}
-
-.service-inner:nth-child(odd) .service-right-img {
-  padding-left: 56px;
-}
-
-.service-inner:nth-child(even) .service-right-img {
-  padding-right: 56px;
-}
-
-.service-right-img img {
-  width: 100%;
-  -o-object-fit: contain;
-  object-fit: contain;
 }
 
 /**bet**/
@@ -537,7 +470,7 @@ header {
   padding: 64px 0 40px;
 }
 
-.smart-text h3, .smart-box-content h3, .smart-box-text h3, .box-text-h3 {
+.smart-text h3, .smart-box-content h3, .smart-box-text h3 {
   color: #34343c;
 }
 
@@ -607,25 +540,19 @@ header {
   color: #34343c;
 }
 
-.smart-logo img {
-  width: 664px;
-  padding: 26px 59px 21px 62px;
+.smart-logo {
+  padding: 60px 95px;
   border-radius: 10px;
   background-color: #c1d0f5;
 }
 
-.smart-box-clik p {
-  text-align: center;
-  font-family: 'Rubik-Italic';
-  font-size: 24px;
-  line-height: 1.33;
-  color: #34343c;
-  padding: 37px 1px 29px 0
+.smart-logo img {
+  height: 80px;
+
 }
 
-.smart-box-clik p a {
-  color: var(--blue);
-  font-family: Rubik-MediumItalic;
+.smart-box-clik p {
+  padding: 40px 0 64px
 }
 
 .smart-box-not img {
@@ -653,12 +580,6 @@ header {
 }
 
 .box-text-h3 {
-  font-family: 'Rubik-Bold';
-  font-size: 40px;
-  font-weight: bold;
-  line-height: 1.2;
-  text-align: center;
-  color: #34343c;
   padding: 43px 0 28px 0;
 }
 
@@ -896,16 +817,24 @@ header {
   padding: 0;
 }
 
+.premium-box-right, .premium-box-left {
+  width: 432px;
+  max-width: 100%;
+  margin: 0 16px;
+}
+
 .premium-box-ul:nth-child(1) {
   padding: 32px 0 39px;
   border-radius: 8px;
   background-color: #303750;
   margin: 0 0 30px 0;
+  position: relative;
+  overflow: hidden;
 }
 
 .premium-box-ul li:nth-child(1) {
   text-align: center;
-  margin: 0 159px 45px;
+  margin: 0 auto 45px;
   line-height: 1.11;
   font-family: 'Rubik-Bold';
 }
@@ -915,11 +844,30 @@ header {
 
 }
 
+.premium-box-li > span {
+  display: block;
+  margin-top: 25px;
+  font-family: inherit;
+}
+
 .premium-box-li img {
   position: absolute;
   -webkit-transform: translate(223px, -19px);
   -ms-transform: translate(223px, -19px);
   transform: translate(223px, -19px);
+}
+
+.badge {
+  width: 148px;
+  background: #60d79d;
+  font-family: Rubik-Bold;
+  padding: 5px;
+  font-size: 12px;
+  transform: rotate(53deg);
+  letter-spacing: 1px;
+  position: absolute;
+  top: 38px;
+  right: -38px;
 }
 
 .premium-box-ul li {
@@ -930,12 +878,9 @@ header {
   padding-left: 17px;
 }
 
-.premium-box-ul li:nth-child(odd),
-.premium-box-ul li:nth-child(even) {
+.premium-box-ul li:not(:last-child):nth-child(odd),
+.premium-box-ul li:not(:last-child):nth-child(even) {
   padding: 17px 18px 15px 10px;
-  display: flex;
-  align-items: center;
-  font-size: 15px;
 }
 
 .premium-box-ul li:nth-child(odd) {
@@ -952,18 +897,23 @@ header {
   background-color: var(--blue);
   font-family: 'Rubik-Medium';
   font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 1px;
   text-align: center;
   color: var(--white);
   text-decoration: none;
-  margin: 16px auto 0 auto;
+  margin: 33px auto 0 auto;
+  display: inline-block;
 }
 
 .premium-box-content {
   padding: 40px 0 0 0;
-  justify-content: space-between;
   flex-direction: row;
+}
+
+/*checked list*/
+.premium-box-ul li.align-items::before {
+  content: url("../img/icon-pricing-check.svg");
+  line-height: 1;
 }
 
 /**footer**/
@@ -1018,11 +968,42 @@ header {
   .chat-part-text-part h4 {
     padding: 0 20px 40px 0;
   }
+
+  .footer,
+  .script-text-part-button {
+    padding: 0;
+  }
+
+  .bet-text p {
+    padding: 20px 0 0;
+  }
+
+  .premium,
+  .script,
+  .demnd,
+  .unimat,
+  .smart,
+  .bet {
+    padding: 40px 0;
+  }
+
+  .script-box {
+    margin: 50px 0 0;
+  }
 }
 
 @media all and (max-width: 767px) {
   .chat-part-text-part h4 {
     padding: 0 0 30px 0;
+  }
+
+  .smart-logo {
+    padding: 40px 95px
+  }
+
+  .smart-logo img {
+    height: auto;
+    width: 100%;
   }
 
   .premium-box-li img {
@@ -1071,8 +1052,7 @@ header {
     padding: 40px 0 21px;
   }
 
-  .section,
-  .service-left {
+  .section {
     padding: 0 0 40px;
   }
 
@@ -1080,10 +1060,6 @@ header {
   .chat-block, .chat-part-text-part, .premium-part-right, .premium-part-left,
   .unimat-conatnt-left,
   .unimat-conatant-right,
-  .service-left,
-  .service-right,
-  .service-left p,
-  .service-left h4,
   .section,
   .make-inner-left,
   .make-inner-right,
@@ -1100,10 +1076,6 @@ header {
     margin: 25px 6px 44px 0;
   }
 
-  .service-left p {
-    font-size: 14px;
-  }
-
   .bet-text {
     padding: 8px 0 8px 0;
   }
@@ -1118,11 +1090,11 @@ header {
   }
 
   .bet-h2 {
-    font-size: 14px;
+    font-size: 24px;
   }
 
   .bet-p {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .smart-text-border h5 {
@@ -1158,26 +1130,20 @@ header {
   }
 
   .unimat-part:nth-child(odd) .unimat-contant-img,
-  .service-inner:nth-child(odd) .service-right-img,
   .premium-part-right {
     padding-left: 0;
   }
 
-  .unimat-part:nth-child(even) .unimat-contant-img,
-  .service-inner:nth-child(even) .service-right-img {
+  .unimat-part:nth-child(even) .unimat-contant-img {
     padding-right: 0;
   }
 
-  .service-left h4 {
-    font-size: 28px;
-  }
 }
 
 @media all and (max-width: 567px) {
-  .name {
-    display: none;
+  .header-content {
+    padding:15px 30px;
   }
-
   .mak-box-inner-left, .mak-box-inner-right {
     width: 100%;
   }
