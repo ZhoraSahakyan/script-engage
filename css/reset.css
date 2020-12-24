@@ -15,7 +15,9 @@
   max-width: 100%;
   font-family: 'Rubik-Regular', sans-serif;
 }
-
+body{
+  background: var(--color-dark);
+}
 h1, h1, h3, h4, h5, h6 {
   font-family: 'Rubik-Bold', sans-serif;
 }

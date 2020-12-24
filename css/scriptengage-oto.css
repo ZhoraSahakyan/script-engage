@@ -1,0 +1,133 @@
+@import "fonts.css";
+@import "reset.css";
+
+.scriptengage-oto-header {
+  position: absolute;
+  top: 39px;
+  left: 40px;
+}
+
+.main-block {
+  width: 667px;
+  padding-top: 39px;
+}
+
+.main-block .subtitle {
+  margin-bottom: 24px;
+}
+
+.main-block .green-block {
+  width: 567px;
+}
+
+.main-block,
+.main-block .green-block {
+  max-width: 100%;
+}
+
+.hero-section {
+  padding: 104px 0 140px;
+
+}
+
+.hero-section .title {
+  max-width: 842px;
+}
+
+.hero-section h2.title {
+  margin-bottom: 32px;
+  max-width: unset;
+}
+
+.reasons-block {
+  color: var(--text-dark);
+  max-width: 895px;
+}
+
+.reasons-block .title {
+  margin-bottom: 40px;
+}
+
+.reasons-block-title {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.reasons-block-title::before {
+  content: url(../img/icon-arrow-right.svg);
+  margin-right: 16px;
+}
+
+.reasons-block-description {
+  color: inherit;
+  font-size: 21px;
+}
+
+.reasons-block > .reasons-block-description:not(:last-of-type) {
+  margin-bottom: 64px;
+}
+
+.get-all-block,
+.reasons-block {
+  padding: 140px 0;
+}
+
+.get-all-block-description {
+  max-width: 714px;
+}
+
+.get-all-block-image {
+  width: 861px;
+  max-width: 100%;
+  margin: 64px auto 112px;
+}
+
+.get-all-block-image img {
+  width: 100%;
+}
+
+.get-all-block h3.title {
+  margin: 0 auto 40px;
+}
+
+.get-all-block .button-container {
+  margin: 40px auto 24px;
+}
+
+@media all and (max-width: 1150px) {
+  .scriptengage-oto-header {
+    position: static;
+    padding: 15px 20px 0;
+  }
+  .get-all-block, .reasons-block {
+    padding: 140px 15px;
+  }
+}
+
+
+@media all and (max-width: 992px) {
+  .get-all-block, .reasons-block {
+    padding: 40px 30px;
+  }
+  .get-all-block-image {
+    margin: 20px auto 15px;
+  }
+  .reasons-block-description {
+    font-size: 16px;
+  }
+  .reasons-block-title {
+    font-size: 28px;
+  }
+  .reasons-block > .reasons-block-description:not(:last-of-type){
+    margin-bottom: 20px;
+  }
+  .hero-section {
+    padding: 20px 0 40px;
+  }
+}
+
+@media all and (max-width: 567px) {
+  .get-all-block, .reasons-block {
+    padding: 40px 15px;
+  }
+}
