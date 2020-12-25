@@ -2,6 +2,7 @@
 @import "reset.css";
 @import "header.css";
 @import "box-part.css";
+@import "articles.css";
 
 .unlock-block {
   padding: 12px 0 64px;
@@ -118,63 +119,6 @@
 
   .pro-block .small-title {
     margin: 24px 0 30px;
-  }
-}
-
-/*article-block-article*/
-.pro-articles {
-  padding-bottom: 28px;
-}
-
-.article-block {
-  justify-content: space-between;
-  margin-bottom: 112px;
-}
-
-.reverse {
-  flex-direction: row-reverse;
-}
-
-.article-block-article,
-.article-block-figure {
-  width: calc((100% - 32px) / 2);
-  min-width: 400px;
-}
-
-.article-block-figure {
-  border-radius: 13px;
-  overflow: hidden;
-}
-
-.article-block-figure img {
-  width: 100%;
-}
-
-.article-block-article .rubik-mediumItalic.text-dark.subtitle {
-  margin: 8px 0 0;
-}
-
-.article-block-article-description {
-  justify-content: space-between;
-}
-
-.article-block-article-description {
-  margin-top: 24px;
-}
-
-@media all and (max-width: 992px) {
-  .article-block-article,
-  .article-block-figure {
-    width: 100%;
-    min-width: 100%;
-  }
-
-  .article-block-article {
-    margin-bottom: 30px;
-  }
-
-  .article-block {
-    margin-bottom: 40px;
   }
 }
 
