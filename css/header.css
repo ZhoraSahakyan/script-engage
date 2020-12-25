@@ -28,9 +28,16 @@
   /* Increment "my-sec-counter" by 1 */
   counter-increment: sec-counter;
   content: counter(sec-counter);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -ms-flex-negative: 0;
   flex-shrink: 0;
   width: 40px;
   height: 40px;
@@ -92,9 +99,15 @@
 
 @media all and (max-width: 567px) {
   .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .menu-item-link {
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
     flex-direction:column;
   }
   .menu-item-link > span {
@@ -104,6 +117,8 @@
     margin-left: 0;
   }
   .menu {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     margin-top: 10px;
   }

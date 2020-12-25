@@ -230,6 +230,7 @@
   background: var(--white);
   padding: 40px 39px 40px 38px;
   border-radius: 8px;
+  -webkit-box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.08);
   margin: 24px auto 40px;
 }
@@ -237,6 +238,8 @@
 .card-name {
   padding: 12px 24px;
   border-radius: 5.3px;
+  background: -webkit-gradient(linear, left top, right top, from(#358462), to(#6fffc0));
+  background: -o-linear-gradient(left, #358462, #6fffc0);
   background: linear-gradient(0.25turn, #358462, #6fffc0);
   margin-bottom: 40px;
 }
@@ -244,6 +247,8 @@
 .card-button {
   padding: 10px 80.5px;
   border-radius: 4px;
+  background: -webkit-gradient(linear, left top, right top, from(#f7901c), to(#ffd16b));
+  background: -o-linear-gradient(left, #f7901c, #ffd16b);
   background: linear-gradient(0.25turn, #f7901c, #ffd16b);
   cursor: pointer;
   outline: none !important;
