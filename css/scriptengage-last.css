@@ -1,0 +1,233 @@
+@import "fonts.css";
+@import "reset.css";
+@import "header.css";
+@import "box-part.css";
+@import "articles.css";
+
+.hero-section .general-title {
+  margin-bottom: 32px;
+}
+
+.hero-section .small-title {
+  margin-bottom: 16px;
+  font-family: Rubik-Bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.hero-section .title.reset-width {
+  margin: 64px auto 32px;
+}
+
+.hero-section .lists {
+  justify-content: center;
+  padding: 40px 0 140px;
+}
+
+.lists li:not(:first-child):before {
+  content: '';
+  width: 4px;
+  height: 32px;
+  margin: 0 18px;
+  border-radius: 2px;
+  box-shadow: 0 8px 30px 0 rgba(50, 210, 150, 0.2);
+  background-color: #32d296;
+}
+
+.gray-article .article-block-article {
+  min-width: unset;
+  width: unset;
+}
+
+.gray-article .small-title.rubik-mediumItalic {
+  padding: 140px 0 16px;
+}
+
+.dark-box {
+  border-radius: 10px;
+  padding: 48px;
+  width: 1024px;
+  justify-content: space-between;
+  background: #303750;
+}
+
+.dark-box .title {
+  margin-bottom: 24px;
+}
+
+.no-secret-block {
+  padding-bottom: 140px;
+}
+
+.no-secret-block .dark-box {
+  margin-top: 24px;
+}
+
+.no-secret-block .no-secret-block-titles .title:last-of-type {
+  margin: 24px 0 40px;
+}
+
+/*not-list*/
+.not-list li {
+  font-size: 16px;
+}
+
+.not-list li:not(:last-child) {
+  margin-bottom: 16px;
+  line-height: 24px;
+}
+
+.not-list li::before {
+  content: url(../img/icon-close.png);
+  margin-right: 16px;
+  align-self: flex-start;
+}
+
+.better-way-block,
+.last-section {
+  padding: 140px 0;
+}
+
+.better-way-block .title {
+  margin-top: 16px;
+}
+
+.better-way-block .dark-box {
+  margin-top: 40px;
+}
+
+.better-way-block .small-title {
+  margin-bottom: 40px;
+}
+
+.better-way-block .dark-box ul li {
+  font-size: 16px;
+  font-family: Rubik-Regular;
+  line-height: 1.5;
+}
+
+.better-way-block .dark-box {
+  justify-content: flex-start;
+}
+
+.better-way-block .dark-box > div:first-child {
+  width: 465px;
+  max-width: 100%;
+}
+
+.better-way-block .dark-box ul li .blue-circle {
+  margin-right: 8px;
+}
+
+.better-way-block .ordere-list li {
+  margin-top: 24px;
+  width: 390px;
+}
+
+.better-way-block .dark-box ul:not(.ordere-list ) {
+  width: 345px;
+}
+
+.last-section.article-block .article-block-article {
+  width: 1198px;
+  max-width: 100%;
+}
+
+@media all and (max-width: 1220px ) {
+  .last-section.article-block .article-block-article {
+    padding: 0 15px;
+  }
+}
+
+.last-section.article-block {
+  margin-bottom: 0;
+}
+
+.last-section.article-block .article-block-article-description {
+  width: 896px;
+  max-width: 100%;
+}
+
+.last-section .small-title {
+  margin: 24px 0 64px;
+}
+
+.last-section .button-container {
+  margin: 40px 0 24px;
+}
+
+.last-section .subtitle {
+  margin-top: 64px;
+}
+
+@media all and (max-width: 992px) {
+  .last-section.article-block .article-block-article {
+    padding: 0 30px;
+  }
+
+  .better-way-block,
+  .last-section {
+    padding: 40px 0;
+  }
+
+  .hero-section .lists {
+    justify-content: center;
+    padding: 20px 0 40px;
+  }
+
+  .gray-article .small-title.rubik-mediumItalic {
+    padding: 40px 0 16px;
+  }
+
+  .no-secret-block {
+    padding-bottom: 40px;
+  }
+
+  .better-way-block .dark-box {
+    justify-content: space-between;
+  }
+
+  .better-way-block .dark-box ul li {
+    font-size: 14px;
+  }
+
+  .better-way-block .dark-box > div,
+  .better-way-block .dark-box > div:first-child {
+    width: 48%;
+    flex-shrink: 0;
+  }
+
+  .better-way-block .dark-box ul:not(.ordere-list ) {
+    width: 100%;
+  }
+
+  .last-section .subtitle {
+    margin-top: 20px;
+  }
+
+  .last-section .small-title {
+    margin: 20px 0;
+  }
+}
+
+@media all and (max-width: 567px) {
+  .dark-box {
+    flex-direction: column;
+  }
+ .dark-box > div:first-child {
+    margin-bottom: 20px;
+  }
+  .better-way-block .dark-box > div,
+  .better-way-block .dark-box > div:first-child {
+    width: 100%
+  }
+  .lists.subtitle{
+    font-size: 12px;
+    text-align: center;
+  }
+  .lists li:not(:first-child):before {
+    margin:0 8px;
+  }
+}
