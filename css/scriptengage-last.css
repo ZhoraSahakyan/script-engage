@@ -22,6 +22,8 @@
 }
 
 .hero-section .lists {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   padding: 40px 0 140px;
 }
@@ -32,6 +34,7 @@
   height: 32px;
   margin: 0 18px;
   border-radius: 2px;
+  -webkit-box-shadow: 0 8px 30px 0 rgba(50, 210, 150, 0.2);
   box-shadow: 0 8px 30px 0 rgba(50, 210, 150, 0.2);
   background-color: #32d296;
 }
@@ -49,6 +52,8 @@
   border-radius: 10px;
   padding: 48px;
   width: 1024px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   background: #303750;
 }
@@ -82,6 +87,7 @@
 .not-list li::before {
   content: url(../img/icon-close.png);
   margin-right: 16px;
+  -ms-flex-item-align: start;
   align-self: flex-start;
 }
 
@@ -109,6 +115,8 @@
 }
 
 .better-way-block .dark-box {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
   justify-content: flex-start;
 }
 
@@ -173,6 +181,8 @@
   }
 
   .hero-section .lists {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     padding: 20px 0 40px;
   }
@@ -186,6 +196,8 @@
   }
 
   .better-way-block .dark-box {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
   }
 
@@ -196,6 +208,7 @@
   .better-way-block .dark-box > div,
   .better-way-block .dark-box > div:first-child {
     width: 48%;
+    -ms-flex-negative: 0;
     flex-shrink: 0;
   }
 
@@ -214,9 +227,12 @@
 
 @media all and (max-width: 567px) {
   .dark-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
- .dark-box > div:first-child {
+  .dark-box > div:first-child {
     margin-bottom: 20px;
   }
   .better-way-block .dark-box > div,
